@@ -1,0 +1,11 @@
+---
+application:
+  name: "qovery-discord"
+  project: "QoveryDiscord"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-qovery-discord"
+  routes:
+  - application_name: "qovery-discord"
+    paths:
+    - "/*"
