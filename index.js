@@ -11,4 +11,4 @@ client.on('message', msg => {
 	msg.reply('heyyyyyy !');
 });
 
-client.login('ODAyOTUxOTgxNDU0ODUyMTA4.YA2tTg.MC7xA1lGF493rFkTvSFqEfy0xKU');
+client.login(process.env.TOKEN);
