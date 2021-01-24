@@ -1,3 +1,3 @@
 FROM node
-COPY app.js .
-CMD [ "node", "app.js" ]
+COPY index.js .
+CMD [ "node", "index.js" ]
