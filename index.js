@@ -13,6 +13,8 @@ client.on('message', msg => {
 	msg.reply('heyyyyyy !');
 });
 
-client.login('ODAyOTUxOTgxNDU0ODUyMTA4.YA2tTg.06TIIH3y0qVzL25eCKyEhBO0KMY');
+console.log(process.env.TOKEN);
+
+client.login(process.env.TOKEN);
 
 console.log('hey 2');
