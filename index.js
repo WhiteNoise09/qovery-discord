@@ -13,7 +13,7 @@ client.on('message', msg => {
 	msg.reply('heyyyyyy !');
 });
 
-console.error(process.env);
+console.log(process.env);
 
 // client.login(process.env.DISCORD_CLIENT_TOKEN);
 
