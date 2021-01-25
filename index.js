@@ -13,9 +13,6 @@ client.on('message', msg => {
 	msg.reply('heyyyyyy !');
 });
 
-console.log(process.env.TOKEN);
-console.log(process.env);
-
-client.login(process.env.TOKEN);
+client.login('ODAyOTUxOTgxNDU0ODUyMTA4.YA2tTg.06TIIH3y0qVzL25eCKyEhBO0KMY');
 
 console.log('hey 2');
